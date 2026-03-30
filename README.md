@@ -6,15 +6,15 @@
 ## Структура проекта
 
 petfriends_10_tests/
-├── tests/
-│   ├── images/
-│   │   └── pet_photo.jpg
-│   └── test_pet_friends.py
-├── api.py
-├── settings.py
-├── .env
-├── .gitignore
-└── README.md
+    tests/
+        images/
+            pet_photo.jpg
+        test_pet_friends.py
+    api.py
+    settings.py
+    .env
+    .gitignore
+    README.md
 
 ## Быстрый старт
 
@@ -74,3 +74,5 @@ collected 16 items
 Он добавлен в .gitignore и не загружается на GitHub.
 В репозитории хранится только пример заполнения.
 
+Автор: Антон Мороз
+Дата: Март 2026
