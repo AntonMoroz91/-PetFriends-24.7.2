@@ -1,6 +1,5 @@
 # PetFriends API — автоматическое тестирование
 
-## О проекте
 Проект содержит 16 автоматических тестов для REST API сервиса PetFriends.
 
 ## Структура проекта
@@ -18,21 +17,20 @@
 
 ## Быстрый старт
 
-### 1. Установи зависимости
-pip install pytest requests python-dotenv
+1. Установи зависимости:
+   pip install pytest requests python-dotenv
 
-### 2. Настрой данные
-Создай файл .env в корне проекта:
+2. Настрой данные:
+   Создай файл .env в корне проекта:
+   EMAIL=твой_email@
+   PASSWORD=твой_пароль
+   BASE_URL=https://petfriends.skillfactory.ru/
 
-EMAIL=твой_email@
-PASSWORD=твой_пароль
-BASE_URL=https://petfriends.skillfactory.ru/
+3. Добавь фото:
+   Положи любое фото в папку tests/images/ и назови pet_photo.jpg
 
-### 3. Добавь фото
-Положи любое фото в папку tests/images/ и назови pet_photo.jpg
-
-### 4. Запусти тесты
-pytest tests/ -v -s
+4. Запусти тесты:
+   pytest tests/ -v -s
 
 ## Тесты (16 штук)
 
@@ -57,10 +55,10 @@ pytest tests/ -v -s
 16. test_delete_pet_wrong_id — неверный ID
 
 ## Ожидаемый результат
-collected 16 items
-... PASSED
-=================== 16 passed ===================
+16 passed
 
 ## Примечание
-Файл .env содержит персональные данные (логин, пароль). Он добавлен в .gitignore и не загружается на GitHub. В репозитории хранится только пример заполнения.
+Файл .env содержит персональные данные. Он добавлен в .gitignore и не загружается на GitHub. В репозитории хранится только пример заполнения.
 
+Автор: Антон Мороз
+Дата: Март 2026
