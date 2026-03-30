@@ -5,16 +5,16 @@
 
 ## Структура проекта
 
-petfriends_10_tests/
-|-- tests/
-|   |-- images/
-|   |   |-- pet_photo.jpg
-|   |-- test_pet_friends.py
-|-- api.py
-|-- settings.py
-|-- .env
-|-- .gitignore
-|-- README.md
+- petfriends_10_tests/
+  - tests/
+    - images/
+      - pet_photo.jpg
+    - test_pet_friends.py
+  - api.py
+  - settings.py
+  - .env
+  - .gitignore
+  - README.md
 
 ## Быстрый старт
 
